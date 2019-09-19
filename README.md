@@ -1,5 +1,7 @@
 Treehouse Python techdegree
+
 Project 6
+
 Jonathan Grenz
 
 Forward:
@@ -8,38 +10,7 @@ As part of your job, you’ve been asked to build a website that displays inform
 A web designer has already designed the pages. You only need to write the code to created the pages as they’ve been designed. Use the included HTML/CSS files to see how to structure and style the pages. You don’t need to alter global.css - just use it as is.
 
 Instruction:
-To complete this project, follow the instructions below. If you get stuck, ask a question in the community.
 
-WARNING: If you are attempting this project on a Windows operating system, you will need to unpack the provided project .zip file using a third-party unzip utility such as one of the following:
-
-7-Zip (free, open source)
-WinZip (free evaluation)
-WinRAR (free evaluation)
-Using the Windows Explorer default unzip utility may cause your mineral image filenames to be decoded with the wrong character set causing a mismatch between the names in the minerals.json file and your filenames of your images.
-
-Use SQLite to store the mineral data.
-Open minerals.json and look at the attributes of a mineral. Write a model to store the mineral data. Each mineral can have the following attributes. Some minerals will not have all of these attributes.
-
-name
-image filename
-image caption
-category
-formula
-strunz classification
-color
-crystal system
-unit cell
-crystal symmetry
-cleavage
-mohs scale hardness
-luster
-streak
-diaphaneity
-optical properties
-refractive index
-crystal habit
-specific gravity
-group
 Write a script to that constructs a mineral model instance for each mineral in minerals.json and saves them to a SQLite database.
 
 Create a layout template for the app.
